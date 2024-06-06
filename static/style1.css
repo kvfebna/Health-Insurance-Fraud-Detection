@@ -1,6 +1,6 @@
  .Fraudulent{
   max-width: 500px;
-  margin: auto;
+  margin:0 auto;
   position: absolute;
   top: 80px;
   height:  500px;
@@ -14,7 +14,7 @@
 }
 .Legitimate{
  max-width: 500px;
-  margin: auto;
+  margin:0 auto;
   animation: showup 20s infinite;
   position: absolute;
   top :250px;
