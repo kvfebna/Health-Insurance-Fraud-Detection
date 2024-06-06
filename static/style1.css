@@ -1,0 +1,25 @@
+ .Fraudulent{
+  position: absolute;
+  top: 80px;
+  height:  500px;
+  left:450px;
+  animation: blinker 1s linear infinite;
+ }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.Legitimate{
+  animation: showup 20s infinite;
+  position: absolute;
+  top :250px;
+  left:550px;
+}
+@keyframes showup {
+  0% {opacity:0;}
+  20% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+}
+  
