@@ -10,6 +10,8 @@ body {
 }
 
 h1 {
+  max-width: 500px;
+  margin: auto;
   position: absolute;
   top: 30px;
   left:430px;
@@ -26,6 +28,8 @@ p {
 }
 
 form {
+  max-width: 500px;
+  margin: auto;
   position: absolute;
   top:100px;
   left:470px;
